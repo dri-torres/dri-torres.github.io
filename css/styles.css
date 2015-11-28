@@ -1,0 +1,115 @@
+@font-face{
+	font-family: opensans;
+	src: url(../fonts/open-sans/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: opensansbold;
+	src: url(../fonts/open-sans/OpenSans-Semibold.ttf);
+}
+body{
+	width:100%;
+	background-color: #eeeeee;
+}
+#page-1,#page0,#page1,#page2,#page4{
+	height: 1000px;
+	color: #666666;
+	text-align: center;
+	position: relative;
+	padding-left: 300px;
+	padding-right: 300px;
+	
+}
+#page-1{
+	top: 300px;
+}
+#page-1 p{
+	font-family: opensans;
+	line-height: 25px;
+}
+#page-1 h1{
+	font-size: 75px;
+	font-family: opensans;
+}
+#page0{
+	padding-top: 150px;
+}
+#page0,#page2{
+	background-color: #111111;
+
+}
+
+.nav a{
+	text-decoration: none;
+	color: #666666;
+	font-family: opensansbold;
+	
+}
+
+#side{
+	position: fixed;
+	left: 30px;
+	line-height: 50px;
+	margin-top: -100px;
+	text-align: left;
+	width: 300px;
+}
+.nav{
+	text-align: center;
+	margin-top: 100px;
+	float: left;
+	/*margin-left: 48%;*/
+	width: 100%;
+	/*margin-bottom: 1000px;*/
+	z-index: 100;
+	line-height: 75px;
+}
+#enter{
+	font-size: 75px;
+	margin-top: 75px;
+}
+.hovertext{
+	width: 80%;
+	margin: auto;
+	padding-top: 75px;
+}
+.hovertext:hover h1{
+	z-index: 400;
+	cursor: pointer;
+}
+.hovertext h1{
+	font-family: opensansbold;
+}
+.hovertext span{
+	/*position: absolute;*/
+	opacity:0;
+	transition: opacity 1s;
+	display: block;
+	font-family: opensans;
+	text-align: left;
+	line-height: 25px;
+	letter-spacing: 3px;
+}
+.hovertext a{
+	text-decoration: none;
+	font-family: opensansbold;
+	color: #72587F;
+}
+.hovertext:hover span{
+	opacity: 1;
+	margin-left: 0;
+	line-height: 25px;
+
+}
+#interests{
+	display: block;
+	padding-top: 100px;
+}
+#page4 span a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 90px;
+	letter-spacing: 50px;
+}
+#page4 div{
+	padding-top: 300px;
+}
