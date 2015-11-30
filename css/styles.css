@@ -45,14 +45,7 @@ body{
 	
 }
 
-#side{
-	position: fixed;
-	left: 30px;
-	line-height: 50px;
-	margin-top: -100px;
-	text-align: left;
-	width: 300px;
-}
+
 .nav{
 	text-align: center;
 	margin-top: 100px;
@@ -63,12 +56,20 @@ body{
 	z-index: 100;
 	line-height: 75px;
 }
+#side{
+	position: fixed;
+	left: 30px;
+	line-height: 50px;
+	margin-top: -100px;
+	text-align: left;
+	width: 90px;
+}
 #enter{
 	font-size: 75px;
 	margin-top: 75px;
 }
 .hovertext{
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	padding-top: 75px;
 }
@@ -88,6 +89,7 @@ body{
 	text-align: left;
 	line-height: 25px;
 	letter-spacing: 3px;
+	font-size: 1vw;
 }
 .hovertext a{
 	text-decoration: none;
@@ -100,6 +102,12 @@ body{
 	line-height: 25px;
 
 }
+.hovertext:active span{
+	opacity: 1;
+	margin-left: 0;
+	line-height: 25px;
+
+}
 #interests{
 	display: block;
 	padding-top: 100px;
@@ -107,9 +115,13 @@ body{
 #page4 span a{
 	text-decoration: none;
 	color: #666666;
-	font-size: 90px;
+	font-size: 4vw;
 	letter-spacing: 50px;
 }
 #page4 div{
 	padding-top: 300px;
+}
+#page4{
+	padding-left: 10px;
+	padding-right: 10px;
 }
