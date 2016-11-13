@@ -1,0 +1,33 @@
+@font-face{
+	font-family: opensans;
+	src: url(../fonts/open-sans/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: opensansbold;
+	src: url(../fonts/open-sans/OpenSans-Bold.ttf);
+}
+body{
+	width:100%;
+	background-color: #eeeeee;
+}
+.blogdate{
+    font-family: opensans;
+    font-size: 28px;
+}
+.blogheader{
+    font-family: opensansbold;
+    font-size: 64px;
+    float: left;
+}
+.blogtext{
+    color: #333333;
+    font-family: opensans;
+    font-size: 28px;
+}
+#container{
+    width: 1024px;
+    background-color: rgba(50,50,50,.2);
+    margin: auto;
+    box-shadow: 5px 5px black;
+}
+
