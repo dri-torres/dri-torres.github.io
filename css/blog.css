@@ -1,33 +1,65 @@
-@font-face{
+@font-face {
 	font-family: opensans;
 	src: url(../fonts/open-sans/OpenSans-Light.ttf);
 }
-@font-face{
+@font-face {
 	font-family: opensansbold;
 	src: url(../fonts/open-sans/OpenSans-Bold.ttf);
 }
-body{
+
+.blogdate {
+    font-family: opensans;
+    font-size: 28px;
+    margin-bottom: 2vw;
+}
+.blogdate span {
+    font-size: 3vw;
+}
+.blogheader {
+    font-family: opensansbold;
+    font-size: 64px;
+}
+.blogtext {
+    color: #333333;
+    font-family: opensans;
+    font-size: 2vw;
+}
+#blogtitle {
+    font-size: 10vw;
+    text-align: center;
+    padding: 1vw;
+    margin-bottom: 4vw;
+}
+.blogtheme {
+    font-size: 5vw;
+    margin-right: 2vw;
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin-bottom: 2vw;
+}
+.blogtheme h1 {
+    width: 100%;
+    display: block;
+}
+body {
 	width:100%;
 	background-color: #eeeeee;
 }
-.blogdate{
-    font-family: opensans;
-    font-size: 28px;
+.content {
+    line-height: 3vw;
+    text-align: left;
+    margin: auto;
+    margin-right: 2vw;
+    word-wrap: break-word;
 }
-.blogheader{
-    font-family: opensansbold;
-    font-size: 64px;
-    float: left;
-}
-.blogtext{
-    color: #333333;
-    font-family: opensans;
-    font-size: 28px;
-}
-#container{
-    width: 1024px;
+#container {
+    width: 100%;
     background-color: rgba(50,50,50,.2);
     margin: auto;
     box-shadow: 5px 5px black;
+    font-family: opensans;
+    font-size: 2vw;
+    padding: 3vw;
 }
+
 
