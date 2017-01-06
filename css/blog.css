@@ -7,9 +7,14 @@
 	src: url(../fonts/open-sans/OpenSans-Bold.ttf);
 }
 
+a {
+	text-decoration: none;
+	font-family: opensansbold;
+	color: #72587F;
+}
 .blogdate {
     font-family: opensans;
-    font-size: 28px;
+    font-size: 4vw;
     margin-bottom: 2vw;
 }
 .blogdate span {
@@ -28,7 +33,7 @@
     font-size: 10vw;
     text-align: center;
     padding: 1vw;
-    margin-bottom: 4vw;
+    margin-bottom: 8vw;
 }
 .blogtheme {
     font-size: 5vw;
@@ -45,6 +50,14 @@ body {
 	width:100%;
 	background-color: #eeeeee;
 }
+.code {
+/*
+    color: #eeeeee;
+    background-color: black;
+    width: 100%;
+    border: 2px solid white;
+*/
+}
 .content {
     line-height: 3vw;
     text-align: left;
@@ -60,6 +73,9 @@ body {
     font-family: opensans;
     font-size: 2vw;
     padding: 3vw;
+}
+.post {
+    padding-bottom: 4vw;
 }
 
 

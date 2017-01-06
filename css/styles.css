@@ -1,98 +1,39 @@
-@font-face{
+@font-face {
 	font-family: opensans;
 	src: url(../fonts/open-sans/OpenSans-Light.ttf);
 }
-@font-face{
+@font-face {
 	font-family: opensansbold;
 	src: url(../fonts/open-sans/OpenSans-Bold.ttf);
 }
-body{
+body {
 	width:100%;
 	background-color: #eeeeee;
 }
-#page-1,#page0,#page1,#page2,#page4{
-	color: #666666;
-	text-align: center;
-	position: relative;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-bottom: 100px;
-	background-color: #eeeeee;
-	
+#blog {
+    color: #666666;
+    margin-top: 20px;
+    font-family: opensansbold;
+    text-decoration: none;
 }
-#page-1{
-	height: 1000px;
-	padding-left: 1%;
-	padding-right: 1%;
-	/*padding-top: 50px;*/
-	position: relative;
-	z-index: 500;
-
-}
-#page-1 p{
-	font-family: opensans;
-	line-height: 25px;
-}
-#page-1 h1{
-	padding-top: 15%;
-	font-size: 70px;
-	font-family: opensans;
-	overflow: hidden;
-	line-height: 80px;
-}
-#page0{
-	/*padding-top: 15%;*/
-	padding-bottom: 150px;
-	height: 800px;
-}
-#page0,#page2{
-	background-color: #111111;
-
-}
-
-.nav a{
-	text-decoration: none;
-	color: #666666;
-	font-family: opensansbold;
-	
-}
-
-
-.nav{
-	text-align: center;
-	margin-top: 100px;
-	float: left;
-	width: 100%;
-	line-height: 75px;
-
-}
-#side{
-	position: fixed;
-	left: 1vw;
-	line-height: 50px;
-	/*margin-top: -5%;*/
-	text-align: left;
-	width: 90px;
-	z-index: 100;
-}
-#enter{
+#enter {
 	font-size: 75px;
 	margin-top: 75px;
 }
-.hovertext{
+.hovertext {
 	width: 90%;
 	margin: auto;
 	padding-top: 75px;
 }
-.hovertext:hover h1{
+.hovertext:hover h1 {
 	z-index: 400;
 	cursor: pointer;
 }
-.hovertext h1{
+.hovertext h1 {
 	font-family: opensansbold;
 	font-size: 20px;
 }
-.hovertext span{
+.hovertext span {
 	/*position: absolute;*/
 	opacity:0;
 	transition: opacity 1s;
@@ -103,38 +44,105 @@ body{
 	letter-spacing: 3px;
 	font-size: 20px;
 }
-.hovertext a{
+.hovertext a {
 	text-decoration: none;
 	font-family: opensansbold;
 	color: #72587F;
 }
-.hovertext:hover span{
+.hovertext:hover span {
 	opacity: 1;
 	margin-left: 0;
 	line-height: 35px;
 
 }
-.hovertext:active span{
+.hovertext:active span {
 	opacity: 1;
 	margin-left: 0;
 	line-height: 35px;
 
 }
-#interests{
+#interests {
 	display: block;
 	padding-top: 100px;
 }
-#page4 span a{
+
+.nav a {
+	text-decoration: none;
+	color: #666666;
+	font-family: opensansbold;
+	
+}
+
+
+.nav {
+	text-align: center;
+	margin-top: 100px;
+	float: left;
+	width: 100%;
+	line-height: 75px;
+
+}
+#page-1,#page0,#page1,#page2,#page4 {
+	color: #666666;
+	text-align: center;
+	position: relative;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 100px;
+	background-color: #eeeeee;
+	
+}
+#page-1 {
+	height: 1000px;
+	padding-left: 1%;
+	padding-right: 1%;
+	/*padding-top: 50px;*/
+	position: relative;
+	z-index: 500;
+
+}
+#page-1 p {
+	font-family: opensans;
+	line-height: 25px;
+}
+#page-1 h1 {
+	padding-top: 15%;
+	font-size: 70px;
+	font-family: opensans;
+	overflow: hidden;
+	line-height: 80px;
+}
+#page0 {
+	/*padding-top: 15%;*/
+	padding-bottom: 150px;
+	height: 800px;
+}
+#page0,#page2 {
+	background-color: #111111;
+
+}
+#page4 span a {
 	text-decoration: none;
 	color: #666666;
 	font-size: 50px;
 	letter-spacing: 2vw;
 }
-#page4 div{
+#page4 div {
 	padding-top: 100px;
 }
-#page4{
+#page4 {
 	padding-left: 1%;
 	padding-right: 1%;
 }
+#side{
+	position: fixed;
+	left: 1vw;
+	line-height: 50px;
+	/*margin-top: -5%;*/
+	text-align: left;
+	width: 90px;
+	z-index: 100;
+}
+
+
 
