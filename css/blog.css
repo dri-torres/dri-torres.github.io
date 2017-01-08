@@ -29,6 +29,10 @@ a {
     font-family: opensans;
     font-size: 2vw;
 }
+#blog {
+    margin-right: 2vw;
+    font-size: 2vw;
+}
 #blogtitle {
     font-size: 10vw;
     text-align: center;
@@ -66,13 +70,41 @@ body {
     word-wrap: break-word;
 }
 #container {
-    width: 100%;
     background-color: rgba(50,50,50,.2);
     margin: auto;
     box-shadow: 5px 5px black;
     font-family: opensans;
     font-size: 2vw;
     padding: 3vw;
+}
+.firstindent {
+    margin-left: 2em;
+}
+#footer {
+    margin: auto;
+}
+.image {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+li {
+    list-style-type: circle;
+}
+#page4 span a {
+	text-decoration: none;
+	color: #666666;
+	font-size: 5vw;
+	letter-spacing: 2vw;
+}
+#page4 div {
+	padding-top: 10vw;
+}
+#page4 {
+    color: #666666;
+	text-align: center;
+	padding: 1%;
+    margin-bottom: 5%;
 }
 .post {
     padding-bottom: 4vw;

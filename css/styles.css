@@ -7,14 +7,14 @@
 	src: url(../fonts/open-sans/OpenSans-Bold.ttf);
 }
 body {
-	width:100%;
 	background-color: #eeeeee;
 }
 #blog {
     color: #666666;
-    margin-top: 20px;
+    margin-top: 10vw;
     font-family: opensansbold;
     text-decoration: none;
+    margin-right: 2vw;
 }
 #enter {
 	font-size: 75px;
@@ -113,7 +113,6 @@ body {
 	line-height: 80px;
 }
 #page0 {
-	/*padding-top: 15%;*/
 	padding-bottom: 150px;
 	height: 800px;
 }
@@ -124,21 +123,20 @@ body {
 #page4 span a {
 	text-decoration: none;
 	color: #666666;
-	font-size: 50px;
+	font-size: 5vw;
 	letter-spacing: 2vw;
 }
 #page4 div {
 	padding-top: 100px;
 }
 #page4 {
-	padding-left: 1%;
-	padding-right: 1%;
+	padding: 1%;
+    margin-bottom: 5%;
 }
-#side{
+#side {
 	position: fixed;
 	left: 1vw;
 	line-height: 50px;
-	/*margin-top: -5%;*/
 	text-align: left;
 	width: 90px;
 	z-index: 100;
