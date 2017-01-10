@@ -223,6 +223,97 @@
                 </p>
                 
             </div>
+            <div class="post">
+                <div class="blogdate">
+                    <h2>January 9th, 2017</h2>
+                </div>
+                <div class="blogheader">
+                    <div class="blogtheme">
+                        <h3>Functional FizzBuz and Flexbox</h3>
+                    </div>
+                </div>
+                <p class="content">
+                    I missed my blog post last night, which I terribly regret. I am going to attempt to sum up
+                    all that I have learned in the past two days in a single post. Yesterday as I was studying 
+                    some Functional Programming basics, I came accross a solution to a common interview 
+                    that I have heard before. That is, the FizzBuzz question.
+                </p>  
+                <p class="content">
+                    The problem is as follows: When given a set of numbers from 1 to 100, print the number + "Fizz" when the
+                    the number is divisable by 3, the number + "Buzz" when the number is divisible by 5, and the number +
+                    "FizzBizz" when the number is divisible by 3 and 5.
+                </p> 
+                <br>
+                <p class="content">
+                    I really enjoyed the function approach to the problem, because it can be adjusted easily, and as far
+                    as I can tell, it is much faster that using loops. I will write the solution I found in the book
+                    below. This is also the first post where I will use codepen. I may create my own css monospace 
+                    stylesheet so I can display programs (and not the large editor);
+                </p>
+               
+                <br>
+                <p class="content">
+                </p>
+                <br>
+                <p class="content">
+                     <code>
+                    var functionalFizzBuzz=function(from, to){<br>
+                    const ar=Array.from({length:(to-from)+1},(elem,index)=>index+1);<br>
+                    const fbResult=ar.map((elem,index)=>fbFormatOutput(fbTest(index)));<br>
+                    <span class="indent">fbResult.forEach(fbPrint);<br></span>
+                    } <br>
+                    var fbTest=function(num){<br>
+                    var retval=[num];<br>
+                    if(num%3==0) retval.push("Fizz");<br>
+                    if(num%5==0) retval.push("Buzz");<br>
+                     <span class="indent">return retval;<br></span>
+                    }<br>
+                    var fbFormatOutput=function(ar){<br>
+                    var i;<br>
+                    var output="";<br>
+                    for(i=0;i<ar.length;i++){<br>
+                    <span>output+=ar[i];<br></span>
+                    }<br>
+                    <span class="indent">return output;<br></span>   
+                    }<br>
+                    var fbPrint=function(output){<br>
+                     <span class="indent">console.log(output);<br></span>
+                    }<br>
+                    functionalFizzBuzz(1,100);<br>
+                </code>
+                    <br>
+                </p>
+                <br>
+                <p class="content">
+                    I need to do more Javsscript haha.
+                </p>
+                <br>
+                <p class="content">
+                    I would like to end this post by admitting that I have not looked into flex in depth
+                    until this evening, even though it was used at my last workplace. I have this weird 
+                    thing about feeling nervous about watching youtube tutorials in the workplace
+                    because I feel like I am doing it for enjoyment, but usually it is because I think 
+                    I can learn it faster that way. Am I really picky with the types of docs I like?
+                    Or do I need a person to weive together the concepts I read into a usable coding concept?
+                </p>
+                <p class="content">
+                    For now I will attempt to do all of my tutorial watching at home, and stick to docs at work.
+                </p>
+                <p class="content">
+                    RDFM!!!!
+                </p>
+                <p class="content">
+                    Also I found a pretty great cheatsheet for flex
+                    <a href="https://www.amazon.com/Magical-World-Functional-Programming-Thinking-ebook/dp/https://madebymike.com.au/demos/flexbox-tester/">
+                    here</a>. I still need to figure out what flex-basis does lol. I do know that in this example when
+                    flex-basis is 'auto', the remaining space between the initial size of the emelents is distributed
+                    based on the ratios provided in the 'flex-grow' property, instead of conforming the the ratio strictly.
+                </p>
+                <p class="content">
+                    More technial flex lingo and UX/UI thoughts to follow.<br>
+                    -- Tired Dri
+                </p>
+            </div>
             <div id="page4">
 				<a id="contact" ></a>
 					<div id="footer">
